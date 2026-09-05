@@ -21,4 +21,13 @@ public class Guerrero extends Personaje {
         this.escudoActivo = false;
     }
 
+    public Guerrero(String nombre, int nivel, double vida, boolean estaVivo,
+                     int fuerza, double resistenciaArmadura, char tipoArma, boolean escudoActivo) {
+        super(nombre, nivel, vida, estaVivo);
+        this.fuerza = fuerza;
+        this.resistenciaArmadura = resistenciaArmadura;
+        this.tipoArma = tipoArma;
+        this.escudoActivo = escudoActivo;
+    }
+
 }
