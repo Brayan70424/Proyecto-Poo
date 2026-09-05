@@ -30,4 +30,36 @@ public class Arquero extends Personaje {
         this.tieneAljabaExtra = tieneAljabaExtra;
     }
 
+    public int getPrecision() {
+        return precision;
+    }
+
+    public void setPrecision(int precision) {
+        this.precision = precision;
+    }
+
+    public double getDistanciaAtaque() {
+        return distanciaAtaque;
+    }
+
+    public void setDistanciaAtaque(double distanciaAtaque) {
+        this.distanciaAtaque = distanciaAtaque;
+    }
+
+    public char getTipoFlecha() {
+        return tipoFlecha;
+    }
+
+    public void setTipoFlecha(char tipoFlecha) {
+        this.tipoFlecha = tipoFlecha;
+    }
+
+    public boolean isTieneAljabaExtra() {
+        return tieneAljabaExtra;
+    }
+
+    public void setTieneAljabaExtra(boolean tieneAljabaExtra) {
+        this.tieneAljabaExtra = tieneAljabaExtra;
+    }
+
 }
