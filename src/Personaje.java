@@ -5,4 +5,8 @@ public class Personaje {
     private double vida;
     private boolean estaVivo;
 
+    public Personaje() {
+        this("Sin nombre", 1);
+    }
+
 }
