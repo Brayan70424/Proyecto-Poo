@@ -62,4 +62,17 @@ public class Mago extends Personaje {
         this.puedeVolar = puedeVolar;
     }
 
+    @Override
+    public String toString() {
+        return "Mago{" +
+                "nombre='" + getNombre() + '\'' +
+                ", nivel=" + getNivel() +
+                ", vida=" + getVida() +
+                ", estado=" + (isEstaVivo() ? "Vivo" : "Muerto") +
+                ", mana=" + mana +
+                ", poderMagico=" + poderMagico +
+                ", escuelaMagia='" + escuelaMagia + '\'' +
+                ", vuelo=" + (puedeVolar ? "Puede volar" : "No puede volar") +
+                '}';
+    }
 }
