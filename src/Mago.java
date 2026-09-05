@@ -30,4 +30,36 @@ public class Mago extends Personaje {
         this.puedeVolar = puedeVolar;
     }
 
+    public int getMana() {
+        return mana;
+    }
+
+    public void setMana(int mana) {
+        this.mana = mana;
+    }
+
+    public double getPoderMagico() {
+        return poderMagico;
+    }
+
+    public void setPoderMagico(double poderMagico) {
+        this.poderMagico = poderMagico;
+    }
+
+    public String getEscuelaMagia() {
+        return escuelaMagia;
+    }
+
+    public void setEscuelaMagia(String escuelaMagia) {
+        this.escuelaMagia = escuelaMagia;
+    }
+
+    public boolean isPuedeVolar() {
+        return puedeVolar;
+    }
+
+    public void setPuedeVolar(boolean puedeVolar) {
+        this.puedeVolar = puedeVolar;
+    }
+
 }
