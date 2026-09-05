@@ -62,4 +62,17 @@ public class Guerrero extends Personaje {
         this.escudoActivo = escudoActivo;
     }
 
+    @Override
+    public String toString() {
+        return "Guerrero{" +
+                "nombre='" + getNombre() + '\'' +
+                ", nivel=" + getNivel() +
+                ", vida=" + getVida() +
+                ", estado=" + (isEstaVivo() ? "Vivo" : "Muerto") +
+                ", fuerza=" + fuerza +
+                ", resistenciaArmadura=" + resistenciaArmadura +
+                ", tipoArma=" + tipoArma +
+                ", escudo=" + (escudoActivo ? "Activado" : "Desactivado") +
+                '}';
+    }
 }
