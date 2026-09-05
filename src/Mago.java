@@ -21,4 +21,13 @@ public class Mago extends Personaje {
         this.puedeVolar = false;
     }
 
+    public Mago(String nombre, int nivel, double vida, boolean estaVivo,
+                int mana, double poderMagico, String escuelaMagia, boolean puedeVolar) {
+        super(nombre, nivel, vida, estaVivo);
+        this.mana = mana;
+        this.poderMagico = poderMagico;
+        this.escuelaMagia = escuelaMagia;
+        this.puedeVolar = puedeVolar;
+    }
+
 }
