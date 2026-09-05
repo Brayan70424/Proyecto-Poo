@@ -17,4 +17,11 @@ public class Personaje {
         this(nombre, nivel, 100.0, true);
     }
 
+    public Personaje(String nombre, int nivel, double vida, boolean estaVivo) {
+        this.nombre = nombre;
+        this.nivel = nivel;
+        this.vida = vida;
+        this.estaVivo = estaVivo;
+    }
+
 }
