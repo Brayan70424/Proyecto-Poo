@@ -17,5 +17,14 @@ public class Main {
         System.out.println(viajero);
         System.out.println(narrador);
 
+        Guerrero guerrero1 = new Guerrero("Thoric", 25);
+        Guerrero guerrero2 = new Guerrero("Brunhilda", 8, 40, 'H');
+        Guerrero guerrero3 = new Guerrero("Magnus", 20, 200.0, true, 60, 30.0, 'M', true);
+
+        System.out.println("\n--- Guerreros ---");
+        System.out.println(guerrero1);
+        System.out.println(guerrero2);
+        System.out.println(guerrero3);
+
     }
 }
