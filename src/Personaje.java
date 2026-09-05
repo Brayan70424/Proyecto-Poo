@@ -13,4 +13,8 @@ public class Personaje {
         this(nombre, 1);
     }
 
+    public Personaje(String nombre, int nivel) {
+        this(nombre, nivel, 100.0, true);
+    }
+
 }
