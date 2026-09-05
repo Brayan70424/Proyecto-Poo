@@ -30,4 +30,36 @@ public class Guerrero extends Personaje {
         this.escudoActivo = escudoActivo;
     }
 
+    public int getFuerza() {
+        return fuerza;
+    }
+
+    public void setFuerza(int fuerza) {
+        this.fuerza = fuerza;
+    }
+
+    public double getResistenciaArmadura() {
+        return resistenciaArmadura;
+    }
+
+    public void setResistenciaArmadura(double resistenciaArmadura) {
+        this.resistenciaArmadura = resistenciaArmadura;
+    }
+
+    public char getTipoArma() {
+        return tipoArma;
+    }
+
+    public void setTipoArma(char tipoArma) {
+        this.tipoArma = tipoArma;
+    }
+
+    public boolean isEscudoActivo() {
+        return escudoActivo;
+    }
+
+    public void setEscudoActivo(boolean escudoActivo) {
+        this.escudoActivo = escudoActivo;
+    }
+
 }
