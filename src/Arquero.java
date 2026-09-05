@@ -62,4 +62,17 @@ public class Arquero extends Personaje {
         this.tieneAljabaExtra = tieneAljabaExtra;
     }
 
+    @Override
+    public String toString() {
+        return "Arquero{" +
+                "nombre='" + getNombre() + '\'' +
+                ", nivel=" + getNivel() +
+                ", vida=" + getVida() +
+                ", estado=" + (isEstaVivo() ? "Vivo" : "Muerto") +
+                ", precision=" + precision +
+                ", distanciaAtaque=" + distanciaAtaque +
+                ", tipoFlecha=" + tipoFlecha +
+                ", aljabaExtra=" + (tieneAljabaExtra ? "Si" : "No") +
+                '}';
+    }
 }
