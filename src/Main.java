@@ -35,5 +35,14 @@ public class Main {
         System.out.println(mago2);
         System.out.println(mago3);
 
+        Arquero arquero1 = new Arquero("Lyra", 85);
+        Arquero arquero2 = new Arquero("Fenrik", 10, 20.0, 'F');
+        Arquero arquero3 = new Arquero("Kael", 15, 150.0, true, 92, 25.0, 'V', true);
+
+        System.out.println("\n--- Arqueros ---");
+        System.out.println(arquero1);
+        System.out.println(arquero2);
+        System.out.println(arquero3);
+
     }
 }
