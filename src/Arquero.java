@@ -13,4 +13,12 @@ public class Arquero extends Personaje {
         this.tieneAljabaExtra = false;
     }
 
+    public Arquero(String nombre, int nivel, double distanciaAtaque, char tipoFlecha) {
+        super(nombre, nivel);
+        this.distanciaAtaque = distanciaAtaque;
+        this.tipoFlecha = tipoFlecha;
+        this.precision = 70;
+        this.tieneAljabaExtra = false;
+    }
+
 }
