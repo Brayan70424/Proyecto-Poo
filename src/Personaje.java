@@ -59,4 +59,13 @@ public class Personaje {
         this.estaVivo = estaVivo;
     }
 
+    @Override
+    public String toString() {
+        return "Personaje{" +
+                "nombre='" + nombre + '\'' +
+                ", nivel=" + nivel +
+                ", vida=" + vida +
+                ", estado=" + (estaVivo ? "Vivo" : "Muerto") +
+                '}';
+    }
 }
