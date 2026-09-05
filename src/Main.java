@@ -44,5 +44,21 @@ public class Main {
         System.out.println(arquero2);
         System.out.println(arquero3);
 
+        System.out.println("\n=================================================");
+        System.out.println(" RESUMEN DE TODOS LOS PERSONAJES INSTANCIADOS");
+        System.out.println("=================================================");
+
+        Personaje[] todosLosPersonajes = {
+                personajeVacio, npcGenerico, viajero, narrador,
+                guerrero1, guerrero2, guerrero3,
+                mago1, mago2, mago3,
+                arquero1, arquero2, arquero3
+        };
+
+        int contador = 1;
+        for (Personaje p : todosLosPersonajes) {
+            System.out.println(contador + ". " + p);
+            contador++;
+        }
     }
 }
