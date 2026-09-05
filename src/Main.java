@@ -26,5 +26,14 @@ public class Main {
         System.out.println(guerrero2);
         System.out.println(guerrero3);
 
+        Mago mago1 = new Mago("Elowen", "Naturaleza");
+        Mago mago2 = new Mago("Zarath", 12, 120, 55.5);
+        Mago mago3 = new Mago("Nyx", 30, 250.0, true, 200, 90.0, "Sombras", true);
+
+        System.out.println("\n--- Magos ---");
+        System.out.println(mago1);
+        System.out.println(mago2);
+        System.out.println(mago3);
+
     }
 }
